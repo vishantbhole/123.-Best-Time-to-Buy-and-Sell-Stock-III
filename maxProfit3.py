@@ -5,3 +5,6 @@ from typing import List
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+        #Time = O(2n)
+        #Space = O(n)
+        if not prices: return 0
