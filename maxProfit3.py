@@ -19,3 +19,13 @@ class Solution:
                 profit = max(profit, pos+prices[i])
                 dp[i] = profit
         return profit
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    prices = [3,3,5,0,0,3,1,4]
+    print("Output is : ", sol.maxProfit(prices))
+    
+    prices2 = [1,2,3,4,5]
+    print("Output is : ", sol.maxProfit(prices2))
+
